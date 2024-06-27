@@ -16,7 +16,7 @@ function multiply(a, b){
 ```
 
 # Education
-- JavaScript (in proces...)
+- JavaScript (in progress)
 
 # Languages
 - Russian - native language
