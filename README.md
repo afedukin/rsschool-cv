@@ -1,1 +1,1 @@
-https://afedukin.github.io/rsschool-cv/cv
+https://afedukin.github.io/rsschool-cv/
