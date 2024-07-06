@@ -1,49 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-p,
-a,
-span,
-li,
-ul {
-  font-family: "Anonymous Pro", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: #000000;
-}
-
 html {
-  scroll-behavior: smooth;
+  height: 100vh;
+  scroll-behavior: smooth;;
 }
 
-body {
+.body {
   display: flex;
+  background-color: #d0fcfc;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  text-decoration: none;
+  color: #000000;
 }
 
 * {
   box-sizing: border-box;
+  }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+  
+.main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .header {
-  border: 1px solid red;
-  max-width: 1440px;
-}
-
-.main {
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .main-container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  max-width: 1440px;
 }
 
 .container {
@@ -68,19 +71,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .nav-link {
   display: flex;
   padding: 0 20px;
   line-height: 50px;
-  transition: 0, 3s;
+  transition: 0,3s;
 }
 .section {
   display: flex;
   width: 50%;
-  border: 1px solid red;
 }
 
 @media (max-width: 768px) {
@@ -92,39 +93,35 @@ body {
 .section-user {
   display: flex;
   width: 100%;
-  border: 1px solid red;
   justify-content: space-around;
   gap: 50px;
 }
 
-.section-user-list{
+.section-user-list {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
-  gap: 10px;
-  padding: 0 20px;
-  margin: 50px 40px;
+  padding: 0 10px;
+  margin: 20px;
 }
 
-.section-user-name{
+.section-user-name {
   display: flex;
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
-}
+  }
 
 .footer {
-  border: 1px solid red;
-  max-width: 1440px;
-}
+  padding: 10px;
+  }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
   padding: 0 20px;
-  margin: 10px 0;
+  margin: 0 auto;
 }
 
 .avatar {
@@ -138,3 +135,22 @@ body {
   transform: scale(1.1);
   transition: 0.5s;
 }
+
+.section-summary {
+  gap: 20px;
+}
+
+.section-languages,
+.section-code,
+.section-education,
+.section-summary {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin: 20px;
+}
+
+.code-border {
+   margin: 10px;
+ }
+

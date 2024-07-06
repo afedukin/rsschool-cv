@@ -24,6 +24,9 @@
             <li class="nav-item">
               <a href="#languages" class="nav-link">Languages</a>
             </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code Examples</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -32,51 +35,67 @@
       <div class="main-container">
         <section class="section-user">
           <img class="avatar" src="./assets/img/ava.jpeg" alt="my photo" />
-            <h1 class="section-user-name">Andrey Fedukin</h1>
-          </section>
+          <div class="section-user-name">
+            <h1>Andrey Fedukin</h1>
+          </div>
+        </section>
         <section class="section" id="contacts">
-          <ul class="section-user-list">
-            <li>E-mail: fedukin.aa@ya.ru</li>
-            <li>GitHub: afedukin</li>
-            <li>Telegram: @afedukin</li>
-          </ul>
+          <div class="section-user-list">
+            <h2>My Contact Info</h2>
+            <ul>
+              <li>E-mail: fedukin.aa@ya.ru</li>
+              <li>GitHub: afedukin</li>
+              <li>Telegram: @afedukin</li>
+            </ul>
+          </div>
         </section>
         <section class="section" id="summary">
-          <h2>About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            auctor, justo ut fermentum gravida, ante lectus consectetur neque,
-            vel laoreet lectus nunc vel ipsum. Nulla facilisi. Donec ac enim at
-            lectus finibus rutrum.
-          </p>
+          <div class="section-summary">
+            <h2>About Me</h2>
+            <p>
+              I am 42 years old, every 7-8 years I change the direction of my
+              professional activity. I hope that successful completion of the
+              training will allow you to once again master a new profession.
+            </p>
+          </div>
         </section>
         <section class="section" id="education">
-          <h2>Education</h2>
-          <ul>
-            <li>
-              <h3>Bachelor of Science in Computer Science</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tristique, massa non ornare bibendum, velit velit consectetur
-                dui, at semper ligula diam a velit.
-              </p>
-            </li>
-            <li>
-              <h3>Master of Science in Computer Science</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tristique, massa non ornare bibendum, velit velit consectetur
-                dui, at semper ligula diam a velit.
-              </p>
-            </li>
-          </ul>
+          <div class="section-education">
+            <h2>Education</h2>
+            <ul>
+              <li>
+                <h3>JavaScript</h3>
+                <span> in progress </span>
+              </li>
+              <li>
+                <h3>HTML&CSS</h3>
+                <span> Basic curse on code-basics.com </span>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="section" id="languages">
-          <h2>Languages</h2>
-          <ul>
-            <li>English - Fluent</li>
-            <li>Russian - Intermediate</li>
-          </ul>
+          <div class="section-languages">
+            <h2>Languages</h2>
+            <ul>
+              <li><b>Russian</b> - native language</li>
+              <li><b>English</b> - (google translate)</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code">
+          <div class="section-code">
+            <h2>Code Examples</h2>
+            <div class="code-border">
+              <pre>
+                <code>
+function multiply(a, b){
+    return (a * b)
+  }
+                </code>
+              </pre>
+            </div>
+          </div>
         </section>
       </div>
     </main>
@@ -90,7 +109,8 @@
             alt="logo"
         /></a>
         <div>
-          <span>© 2024</span> <a href="https://github.com/afedukin">afedukin</a>
+          <span>© 2024 </span>
+          <a href="https://github.com/afedukin">afedukin</a>
         </div>
       </div>
     </footer>
