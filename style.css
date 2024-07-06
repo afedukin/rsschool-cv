@@ -1,71 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-p, a, h1, h2 {
-    font-family: 'Anonymous Pro', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #000000;
+p,
+a,
+h1,
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-.body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-   }
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
 * {
-    box-sizing: border-box;
-  }
-.header{
-    border: 1px solid red
+  box-sizing: border-box;
+}
+.header {
+  border: 1px solid red;
 }
 
-.main{
-    border: 1px solid red
+.main {
+  border: 1px solid red;
 }
 
-.footer{
-    border: 1px solid red
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  border: 1px solid red;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.nav-link {
+  display: flex;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0, 3s;
+}
+.section {
+  display: flex;
+  width: 50%;
+  border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
   }
-
-.nav{
-    display: flex;
-    justify-content: center;
 }
 
-.nav-list{
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-   }
-
-.nav-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red
+.section-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
 }
-
-.nav-link{
-    display: flex;
-    padding: 0 20px;
-    line-height: 50px;
-   }
-
+.section-item a:hover {
+  color: #4d2323;
+}
