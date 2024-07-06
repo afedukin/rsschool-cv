@@ -2,11 +2,12 @@
 
 p,
 a,
-h1,
-h2, li, ul {
+span,
+li,
+ul {
   font-family: "Anonymous Pro", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -17,7 +18,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.body {
+body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,8 +30,10 @@ html {
 * {
   box-sizing: border-box;
 }
+
 .header {
   border: 1px solid red;
+  max-width: 1440px;
 }
 
 .main {
@@ -39,11 +42,8 @@ html {
 
 .main-container {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.footer {
-  border: 1px solid red;
 }
 
 .container {
@@ -89,11 +89,52 @@ html {
   }
 }
 
-.section-item a {
-  color: #829985;
-  text-decoration: none;
-  transition: color 0.5s;
+.section-user {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+  justify-content: space-around;
+  gap: 50px;
 }
-.section-item a:hover {
-  color: #4d2323;
+
+.section-user-list{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  gap: 10px;
+  padding: 0 20px;
+  margin: 50px 40px;
+}
+
+.section-user-name{
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.footer {
+  border: 1px solid red;
+  max-width: 1440px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
