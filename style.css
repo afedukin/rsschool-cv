@@ -10,6 +10,10 @@ p, a, h1, h2 {
     color: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .body{
     display: flex;
     flex-direction: column;
@@ -38,3 +42,30 @@ p, a, h1, h2 {
     max-width: 1440px;
     margin: 0 auto;
   }
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   }
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red
+}
+
+.nav-link{
+    display: flex;
+    padding: 0 20px;
+    line-height: 50px;
+   }
+
