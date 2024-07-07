@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 html {
-  height: 100vh;
   scroll-behavior: smooth;;
 }
 
-.body {
+body {
   display: flex;
   background-color: #d0fcfc;
   flex-direction: column;
@@ -28,6 +27,9 @@ html {
 a {
   text-decoration: none;
   color: #000000;
+}
+a:hover{
+  text-decoration: underline;
 }
   
 .main {
@@ -143,6 +145,7 @@ a {
 .section-languages,
 .section-code,
 .section-education,
+.section-projects,
 .section-summary {
   display: flex;
   flex-direction: column;
