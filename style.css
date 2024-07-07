@@ -79,8 +79,8 @@ a:hover{
   display: flex;
   padding: 0 20px;
   line-height: 50px;
-  transition: 0,3s;
-}
+  }
+  
 .section {
   display: flex;
   width: 50%;
