@@ -6,7 +6,7 @@
 - Telegram: @afedukin
 
 # About Me
-I am 43 years old, every 7-8 years I change the direction of my professional activity. I hope that successful completion of the training will allow you to once again master a new profession.
+I am 42 years old, every 7-8 years I change the direction of my professional activity. I hope that successful completion of the training will allow you to once again master a new profession.
 
 # Code Examples
 ```
